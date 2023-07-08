@@ -49,3 +49,19 @@ section#login {
     display: block;
     padding: 10px;
 }
+#div-email {
+    background-color: #197f8d;
+    border-radius: 5px;
+    padding-bottom: 5px;
+
+}
+#email {
+    width: 200px;
+    margin-right: -10px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+#icon-email {
+    position: relative;
+    top: 5px;
+}

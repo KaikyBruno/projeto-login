@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -12,14 +13,31 @@
             <div id="imagem">
                 <!-- Aqui vai a imagem no CSS -->
             </div>
-
+            
+                
             <div id="formulario">
                 <h1>Login</h1>
                 <p>
                     Seja bem-vindo(a) novamente, faça login para acessar sua e poder fazer as configurações no seu ambiente
                 </p>
                 <form action="teste.html" method="post">
-                  
+                    <div id="div-email">
+                        <label for="email"><span id="icon-email" class="material-icons">account_circle</span></label>
+                        <input type="email" name="email" id="email" placeholder="E-mail" min="10" required>
+                    </div>
+
+                    <div>
+                        <label for="senha"><span class="material-icons">lock</span></label>
+                        <input type="password" name="senha" id="senha" placeholder="Senha" min="8" max="30" required>
+                    </div>
+                    
+                    <div>
+                        <input type="submit" value="Entrar">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Esqueci a senha">
+                    </div>
                 </form>
             </div>
 
