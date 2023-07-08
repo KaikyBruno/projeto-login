@@ -18,24 +18,24 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>
-                    Seja bem-vindo(a) novamente, faça login para acessar sua e poder fazer as configurações no seu ambiente
+                    Seja bem-vindo(a) novamente, faça login para acessar sua conta e poder fazer as configurações no seu ambiente
                 </p>
                 <form action="teste.html" method="post">
-                    <div id="div-email">
+                    <div id="div-email" class="fundo-email-senha">
                         <label for="email"><span id="icon-email" class="material-icons">account_circle</span></label>
-                        <input type="email" name="email" id="email" placeholder="E-mail" min="10" required>
+                        <input type="email" name="email" id="email" class="email-senha" placeholder="E-mail" min="10" required>
                     </div>
 
-                    <div>
+                    <div class="fundo-email-senha">
                         <label for="senha"><span class="material-icons">lock</span></label>
-                        <input type="password" name="senha" id="senha" placeholder="Senha" min="8" max="30" required>
+                        <input type="password" class="email-senha" name="senha" id="senha" placeholder="Sua Senha" min="8" max="30" required>
                     </div>
                     
-                    <div>
+                    <div id="entrar">
                         <input type="submit" value="Entrar">
                     </div>
 
-                    <div>
+                    <div id="esqueci-senha">
                         <input type="submit" value="Esqueci a senha">
                     </div>
                 </form>
