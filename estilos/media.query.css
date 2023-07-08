@@ -29,7 +29,7 @@
 @media screen and (min-width: 1000px) { /* Computador */
     section#login {
         width: 80vw;
-        height: 70%;
+        height: 60%;
     }
     #imagem {
         float: right;
